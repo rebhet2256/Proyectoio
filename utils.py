@@ -372,7 +372,7 @@ def crear_matriz_calor(
         x=clientes,
         y=almacenes,
         colorscale=[
-            [0.0, "#FFF8E1"],
+            [0.0, "#503E04"],
             [0.5, "#FB8C00"],
             [1.0, "#263238"]
         ],
