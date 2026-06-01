@@ -242,8 +242,7 @@ def pagina_inicio():
                 <strong>demanda específica</strong> que debe ser satisfecha. El objetivo es minimizar 
                 el costo total respetando ambas restricciones.
             </p>
-        </div>
-        """, unsafe_allow_html=True)
+        </div>""", unsafe_allow_html=True)
 
     with col_der:
         # Modelo matemático resumido
