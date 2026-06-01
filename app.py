@@ -249,10 +249,8 @@ def pagina_inicio():
         # Modelo matemático resumido
         st.markdown("""<div class="section-card">
             <h3>📐 Modelo de Transporte</h3>
-            
             <div class="math-label">Variables de Decisión</div>
-            <div class="math-block">xᵢⱼ = Cajas enviadas desde
-almacén i al cliente j</div>
+            <div class="math-block">xᵢⱼ = Cajas enviadas desde almacén i al cliente j</div>
             
             <div class="math-label">Función Objetivo</div>
             <div class="math-block">Min Z = Σᵢ Σⱼ cᵢⱼ · xᵢⱼ</div>
@@ -265,8 +263,7 @@ almacén i al cliente j</div>
             
             <div class="math-label">No Negatividad</div>
             <div class="math-block">xᵢⱼ ≥ 0  ∀i, j</div>
-        </div>
-        """, unsafe_allow_html=True)
+        </div>""", unsafe_allow_html=True)
 
         # Método de solución
         st.markdown("""
