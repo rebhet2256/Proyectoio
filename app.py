@@ -247,8 +247,7 @@ def pagina_inicio():
 
     with col_der:
         # Modelo matemático resumido
-        st.markdown("""
-        <div class="section-card">
+        st.markdown("""<div class="section-card">
             <h3>📐 Modelo de Transporte</h3>
             
             <div class="math-label">Variables de Decisión</div>
