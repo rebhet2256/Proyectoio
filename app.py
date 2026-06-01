@@ -266,12 +266,10 @@ def pagina_inicio():
         </div>""", unsafe_allow_html=True)
 
         # Método de solución
-        st.markdown("""
-        <div class="info-box naranja">
+        st.markdown("""<div class="info-box naranja">
             <strong>⚙️ Método de Solución:</strong> Simplex mediante PuLP<br>
             <strong>🎯 Garantía:</strong> Solución matemáticamente óptima global
-        </div>
-        """, unsafe_allow_html=True)
+        </div>""", unsafe_allow_html=True)
 
     st.markdown("---")
 
